@@ -1,14 +1,14 @@
 let timerEl = document.getElementById('timer');
 let textEl = document.getElementById('questions');
-let test = document.createElement('test');
-let nameEl = document.createElement('text');
-let scoreSheet = document.createElement('scores');
-let initialsBtn = document.createElement('initials');
-let restart = document.createElement('restart');
-let answer1 = document.createElement('answer1');
-let answer2 = document.createElement('answer2');
-let answer3 = document.createElement('answer3');
-let answer4 = document.createElement('answer4');
+let test = document.getElementById('test');
+let nameEl = document.getElementById('text');
+let scoreSheet = document.getElementById('scores');
+let initialsBtn = document.getElementById('initials');
+let restart = document.getElementById('restart');
+let answer1 = document.getElementById('answer1');
+let answer2 = document.getElementById('answer2');
+let answer3 = document.getElementById('answer3');
+let answer4 = document.getElementById('answer4');
 
 
 
