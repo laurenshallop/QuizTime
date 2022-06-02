@@ -86,8 +86,8 @@ function startQuiz () {
             timerEl.textContent = "Time:" + timeLeft;
             timeLeft --;
         } else { clearInterval(gameTime); 
-            timerEl.textContent = "End Time:";
-            textEl.textContent = "Finsihed! Score is" + timeLeft+ "!";
+            timerEl.textContent = "End Time:"; 
+            textEl.textContent = "Finsihed! Score is" + timeLeft + "!";
             answer1.style.display = "none";
             answer2.style.display = "none";
             answer3.style.display = "none";
@@ -140,7 +140,7 @@ function checkAnswer(e) {
     e.preventDefault();
     let userAnswer = e.target.id;
     if(userAnswer !==questions[currentIndex].correctAnswer){
-        test.textContent = "wrong";
+        test.textContent = "";
         timeLeft -=10;
         document.getElementById('timer').innerHTML = "Time:" + timeLeft;
     }else {

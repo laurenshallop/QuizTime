@@ -26,7 +26,7 @@ header h1 {
 }
 
 .question {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     align-self: center;
     margin: 30px;
@@ -65,16 +65,16 @@ header h1 {
 }
 #text {
     font-size: 18px;
-    color: black;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100px;
-    background-color: palegreen;
+    background-color: powderblue;
     display: none;
 }
 #initials {
-    background-color: purple transparent;
+    background-color: powderblue;
     border-radius: 10px;
-    color: black;
+    color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     align-self: flex-end;
@@ -83,9 +83,9 @@ header h1 {
     margin-top: 50px;
 }
 #start {
-    background-color: purple;
+    background-color: powderblue;
     border-radius: 10px;
-    color: black;
+    color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     align-self: center;
@@ -131,7 +131,7 @@ header h1 {
         width: 400px;
     }
     .question {
-        border: 15px solid slateblue;
+        border: 15px solid powderblue;
         border-radius: 10px;
         margin-top: 50px;
         margin-bottom: 50px;
